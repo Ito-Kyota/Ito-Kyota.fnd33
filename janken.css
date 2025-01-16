@@ -1,0 +1,61 @@
+.rock,
+.scissors,
+.paper {
+    width: 100px; /* グーのサイズを調整 */
+    cursor: pointer; /* カーソルをポインターに変更 */
+    margin: 10px; /* 画像の間隔を調整 */
+}
+.hammer,
+.helmet{
+    width: 100px; /* のサイズを調整 */
+    cursor: pointer; /* カーソルをポインターに変更 */
+    margin: 10px; /* 画像の間隔を調整 */
+    display: none;
+}
+img {
+    display: inline-block; /* 画像をインラインブロック要素として表示 */
+    margin: 10px; /* 画像の間隔を設定 */
+}
+body {
+    background-color: rgb(193, 253, 249);
+    font-family: "MS 明朝", serif;
+}
+.beginner-button {
+    color: black; /* 文字色を白に設定 */
+    font-family: "MS 明朝",serif;
+    background-color: rgb(14, 230, 14); /* 背景色を青に設定 */
+    border: block; /* ボーダーを削除 */
+    padding: 10px 20px; /* パディングを追加 */
+    font-size: large; /* フォントサイズを大きく設定 */
+    cursor: pointer; /* カーソルをポインターに変更 */
+}
+.intermediate-button{
+    color: black; /* 文字色を白に設定 */
+    font-family: "MS 明朝",serif;
+    background-color:yellow; /* 背景色を青に設定 */
+    border: block; /* ボーダーを削除 */
+    padding: 10px 20px; /* パディングを追加 */
+    font-size: large; /* フォントサイズを大きく設定 */
+    cursor: pointer; /* カーソルをポインターに変更 */
+}
+.Advanced-button{
+    color: black; /* 文字色を白に設定 */
+    font-family: "MS 明朝",serif;
+    background-color:red; /* 背景色を青に設定 */
+    border: block; /* ボーダーを削除 */
+    padding: 10px 20px; /* パディングを追加 */
+    font-size: large; /* フォントサイズを大きく設定 */
+    cursor: pointer; /* カーソルをポインターに変更 */
+}
+.demon-button {
+    color: black; /* 文字色を白に設定 */
+    font-family: "MS 明朝",serif;
+    background-color: purple; /* 背景色を青に設定 */
+    border: block; /* ボーダーを削除 */
+    padding: 10px 20px; /* パディングを追加 */
+    font-size: large; /* フォントサイズを大きく設定 */
+    cursor: pointer; /* カーソルをポインターに変更 */
+}
+#result{
+    color: red;
+}

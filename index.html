@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="janken.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけんゲーム</title>
+    <style>
+        div{
+            margin-top: 30px;
+            text-align: center;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
 
+        <div>
+            <input type="button" value = "初級" id = "beginner" class="beginner-button">
+            <input type="button" value = "中級" id = "intermediate" class="intermediate-button">
+            <input type="button" value = "上級" id = "Advanced" class="Advanced-button">
+            <input type="button" value = "鬼級" id = "demon" class="demon-button">
+        </div>
+    <div>
+        <p>コンピューター：<span id = "com"></span></p>
+        <p>結果：<span  id = "result"></span></p>
+        <p>あなた：<span id = "me"></span></p>
+        <img src="gu.png"class="rock"   onclick="judge(0)">
+        <img src="tyoki.png"class="scissors"  onclick="judge(1)">
+        <img src="pa-.png"class="paper"  onclick="judge(2)">
+    </div>
+    
+    <div style="text-align: center;">
+        <img src="hammer.png" style="display: none;" class="hammer" onclick="hammerClick()">
+        <img src="helmet.png" style="display: none;" class="helmet" onclick="helmetClick()">
+        <p style="display: none;">結果：<span id = "result2"></span></p>
+    </div>
+    
+    <script src="janken.js"></script>
+</body>
+</html>
