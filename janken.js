@@ -42,7 +42,7 @@ function startTimer() {
 
 function handleTimeout() {
     // タイムアウト時の処理
-    result2.innerHTML = "時間切れ！";
+    result2.innerHTML = "時間切れ！コンピューターの勝ち！";
     hammer.style.display = "none";
     helmet.style.display = "none";
 }
